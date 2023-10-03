@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.top-container
+{
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+}
+
+nav{
+    padding: 10px;
+    /* background-color: aliceblue; */
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+nav i
+{
+margin-left: 10px;
+}
+
+nav .ulist li
+{
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.ulist li a
+{
+    color: white;
+}
+
+/* -------------------------------- */
+
+.mid-container
+{
+    width: 100%;
+    height: 100vh;
+    background-image:url(images/front.jpeg);
+    background-position: center;
+    background-size: cover;
+    /* background-color:orangered; */
+}
+
+.front
+{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    /* background-color: aliceblue; */
+    position: relative;
+}
+
+
+.content
+{
+position: absolute;
+height: 250px;
+width: 380px;
+color: white;
+/* background-color: aliceblue; */
+left: 30px;
+padding: 10px;
+bottom: 15%;
+}
+
+
+.content h1
+{
+    font-size: 55px;
+    font-weight: 500;
+}
+
+
+.front button
+{
+    padding: 7px 15px;
+    color: white;
+    background-color: orangered;
+    margin: 20px 0px;
+    outline: none;
+    border: none;
+}
+
+/* ------------------- */
+
+.box-area
+{
+    width: 100%;
+    padding: 20px;
+    background-color: orangered;
+}
+
+.heading
+{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin: 15px 0px;
+}
+
+ .para
+{
+    color: white;
+    text-align: center;
+    width: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.box-container
+{
+    max-width: 900px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+  /* background-color: aliceblue */
+    
+}
+
+
+.box
+{
+    width: 230px;
+  /*  height: 320px;  */
+    padding: 20px;
+    width:calc(33% - 20px);
+    background-color: #333;
+    margin: 0 10px;
+    
+}
+
+.img
+{
+
+    width: 100%;
+    /* width: 100%; */
+    height: 200px;
+    background-color: aqua;
+    background-position: top;
+    background-size: cover;
+}
+
+.img img
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.head
+
+{
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+
+.head p
+{
+    text-align: justify;
+}
+
+
+/* -------------------------------------- */
+
+.price-container
+{
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+
+}
+
+
+.icon-section
+{
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    /* background-color: aliceblue; */
+    padding: 20px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icon-box
+{
+    /* width: 250px;
+    height: 300px; */
+     width: calc(33% - 20px);
+     padding: 20px;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.icon-box i
+{
+    color: white;
+    font-size: 200px;
+
+}
+
+/* --------------------------------------------------- */
+
+
+.static
+{
+    width: 100%;
+    padding: 20px;
+    background: #333;
+
+}
+
+.static-center
+{
+    max-width: 800px;
+    width: 100%;
+    color: white;
+    /* background-color: aliceblue; */
+    padding: 20px;
+    margin: 40px  auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.static-center h4
+{
+    font-weight: 200;
+    color: gray;
+}
+
+
+/* -------------------------------- */
+
+.center-pic
+{
+
+  width:100%;
+ height: 100vh;
+  background-image: url(images/wp3867922.jpeg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.paragraph
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  padding: 20px;
+  max-width: 900px;
+  color: white;
+  /* background-color: aquamarine; */
+}
+
+.paragraph h1
+{
+    margin: 20px auto;
+    text-align: center;
+}
+/* -------------------- */
+
+
+.subscribe
+{
+    width: 100%;
+    background-color: orangered;
+    padding: 40px;
+}
+
+.text-area
+{
+    max-width: 800px;
+    width: 100%;
+    /* background-color:firebrick; */
+    padding: 40px;
+    margin: auto;
+}
+
+.input-area
+{
+    padding: 10px;
+    margin: 30px auto;
+    /* background-color: aliceblue; */
+    text-align:center;
+    outline: none;
+    border: none;
+}
+
+.input-area input
+{
+    padding: 5px 30px;
+
+}
+
+.input-area button
+{
+    background-color:#333 ;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+}
+
+/* --------------------fo0ter */
+
+.footer-container
+{
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+
+
+}
+.footer-container i
+{
+    margin: 15px 10px;
+    /* border:2px solid turquoise; */
+    /* padding: 8px; */
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    line-height: 30px;
+}
+
+.footer-container li
+{
+    color: grey;
+}
+
+.footer-sides
+{
+padding: 10px;
+width: calc(30% - 25px);
+/* background-color: aliceblue; */
+
+}
+
+.footer-side li
+{
+    text-align: left;
+}
+
+.footer-side{
+    padding: 10px;
+    width: calc(23.3% -10px);
+    /* background-color: aliceblue; */
+
+}
+
+.footer-side h1
+{
+    margin: 20px 0px;
+}
+.footer-sides h1{
+    margin: 20px 0px;
+}
+
+.footer-sides p
+{
+    color: gray;
+    text-align: left;
+}
+/* --------------media-query-------------------- */
+
+@media (max-width:600px) {
+    
+    nav{
+        
+        flex-direction: column;
+    }
+
+    .ulist li{
+         
+        margin: 5px 0px;
+    }
+}
+
+
+@media (max-width:600px) {
+
+    .box-container .box
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .icon-box
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .footer-side
+    {
+        width: 100%;
+    }
+
+    .footer-sides{
+        width: 100%;
+    }
+
+    .para
+    {
+        max-width: 500px;
+        width: 100%;
+        margin: auto;
+    }
+      
+    .footer-sides li
+    {
+        text-align: center;
+    }
+
+
+    .footer-side li{
+        text-align: center
+    };
+    }
